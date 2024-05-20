@@ -13,7 +13,7 @@ Installation MolAICal
 3. Run with this command: ```chmod +x install.sh```
 4. Run this command: ```./install.sh```
 5. Make a path for running molaical.exe
-6. If there is an error, replace this molaical.exe file in the installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
+6. If there is an error, replace this molaical.exe file in the installation folder https://github.com/purnawanpontana/NAMD-on-Google-Colab/blob/main/molaical.exe
 7. Tutorial installation https://molaical.github.io/install.html
 
 Separation complex, protein, ligand
@@ -28,14 +28,14 @@ Running NAMD3 to get file complex.log, protein.log and ligand.log and calculatio
 4. ```molaical.exe -mmgbsa -c "complex.log" -r "protein.log" -l "ligand.log"```
 
 Optional-Running MolAICal in google colab
-1. Please open this file and running in your google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb#scrollTo=osCb8g67qpVT)
+1. Please open this file and running in your google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpontana/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb#scrollTo=osCb8g67qpVT)
 
 
 # MMPBSA and Linear Interaction Energy (LIE) Calculation using CaFE https://github.com/HuiLiuCode/CaFE_Plugin
 Required software:
 1. NAMD 2.14 multicore non CUDA https://www.ks.uiuc.edu/Research/namd/2.14/download/946183/NAMD_2.14_Linux-x86_64-multicore.tar.gz
 2. Adaptive Poisson-Boltzmann Solver (apbs) Linux version https://github.com/Electrostatics/apbs/releases/download/v3.4.1/APBS-3.4.1.Linux.zip
-3. Installation CAFE please read this tutorial https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/manual_CAFE.pdf
+3. Installation CAFE please read this tutorial https://github.com/purnawanpontana/NAMD-MMPBGBSA/blob/main/manual_CAFE.pdf
 4. Don't forget to make a path NAMD 2.14 and apbs
 
 Preparation complex and ligand
@@ -49,5 +49,5 @@ Calculation free energy using Linear Interaction Energy (LIE)
 1. ```vmd -dispdev text -eofexit < lie.vmd > vmd_lie.log```
 
 # Binding Free-Energy Estimator 2 (BFEE2) https://github.com/fhh2626/BFEE2
-1. Read this tutorial: https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/BFEE2.pdf
-2. Read this article: https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/BFEE2_NAMD.pdf
+1. Read this tutorial: https://github.com/purnawanpontana/NAMD-MMPBGBSA/blob/main/BFEE2.pdf
+2. Read this article: https://github.com/purnawanpontana/NAMD-MMPBGBSA/blob/main/BFEE2_NAMD.pdf
